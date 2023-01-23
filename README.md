@@ -91,7 +91,7 @@ def binarySearch(arr, k, low, high):
         if arr[mid]==k:
             return mid
         elif arr[mid]>k:
-            return binarySearch(arr,k,low,mid-1)
+            return binarySearch(arr,k,low,mid-1ad)
         else:
             return binarySearch(arr,k,mid+1,high)
     return -1
@@ -108,11 +108,11 @@ else:
         
 ```
 ## Sample Input and Output
-## i) Use a linear search method to match the item in a list.
+### i) Use a linear search method to match the item in a list.
 ![OUTPUT](/111.png)
-## ii) Find the element in a list using Binary Search(Iterative Method).
+### ii) Find the element in a list using Binary Search(Iterative Method).
 ![OUTPUT](/222.png)
-## iii) Find the element in a list using Binary Search (recursive Method).
+### iii) Find the element in a list using Binary Search (recursive Method).
 ![OUTPUT](/333.png)
 ## Result
 Thus the linear search and binary search algorithm is implemented using python programming.
